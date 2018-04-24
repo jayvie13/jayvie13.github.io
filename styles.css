@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'fontreg';
+  src: url('assets/fonts/Bree Serif W01 Bold.woff') format('woff'),
+       url('assets/fonts/Bree Serif W01 Bold.ttf') format('truetype'); 
+}
+body {
+
+
+	background: url('assets/img/bg.jpg') center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+
+                                           /*NAVBAR*/
+.container{
+	padding-top: 28px;
+	
+}
+.navbar-brand{
+	padding-top: 0px;
+}
+.navbar{
+	 border-radius: 10px;
+	 opacity: 0.7;
+	background-color: #000;
+	border: 1px solid #000;
+	transition:.2s ease-in-out;
+	width: 100%;
+	max-width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.navbar:hover{
+	opacity: 1;
+	margin-top: 28px;
+}
+#navbtn a{
+	color: #fff;
+	font-family: 'fontreg';
+	font-size: 1.5em;
+}
+
+#navbtn li:hover{
+background-color: #2bff4e;
+color: #000;
+
+
+}
+#navbtn li a:hover{
+
+color: #000;
+
+
+}
+
+#navbtn li{
+	transition: .5s ease-in-out;
+	border-radius: 10px;
+	border-left: 2px solid #000;
+
+}
+.nav{
+	margin-right: 0px;
+}
+                                          /*NAVBAR*/
+                                          /*Blank*/
+.blank{
+	height: 469px;
+	background-color: transparent;
+
+
+}                                          
+                                          /*Blank*/
+                                           /*footer*/
+
+.footer{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: auto;
+	max-height: 400px
+	min-height: 266px;
+	background-color: #000;
+	opacity: .7;
+	transition:.5s ease-in-out;
+	padding-top: 30px;
+
+}
+
+
+
+.footer:hover{
+	opacity: 1;
+	padding-top: 0px;
+}
+
+#Hi{
+	width: 200px;
+}
+
+#Hi h1{
+	font-family: 'fontreg';
+	font-size: 10em;
+	
+	color: #fff;
+	float: right;
+}
+
+#binfo{
+	font-family: 'fontreg';
+	color: white;
+}
+#binfo p{
+	font-size: 1.5em;
+
+}
+.img-responsive{
+	
+}
+
+.album-container img{
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+
+
+}
+.album-container{
+	padding-top: 20px;
+}
+.album-container p{
+	font-family: 'fontreg';
+	color: #fff;
+	font-size: 1.3em;
+}
+.album-container:hover img
+{
+	opacity: 0.7;
+	transform: scale(.9);
+}
+.album-container img:hover{
+	transform: rotate(360deg);
+	opacity: 1;
+	transform: scale(1.1);
+	transition: .2s ease-in-out;
+	border: 3px solid #fff;
+}
+                                                                                 /*footer*/
+
+
+

@@ -1,0 +1,210 @@
+
+
+body{
+	
+
+	background-image: url('../../assets/img/bg2.jpg');
+	background-repeat: no-repeat;
+   background-size: cover;
+	background-attachment: fixed;
+}
+@font-face {
+  font-family: 'fontreg';
+  src: url('../../assets/fonts/Bree Serif W01 Bold.woff') format('woff'),
+       url('../../assets/fonts/Bree Serif W01 Bold.ttf') format('truetype'); 
+}
+
+                                           /*NAVBAR*/
+
+.container{
+	padding-top: 28px;
+	
+}
+
+.navbar-brand{
+	padding-top: 0px;
+}
+.navbar{
+	 border-radius: 10px;
+	 opacity: 0.7;
+	background-color: #000;
+	border: 1px solid #000;
+	transition:.2s ease-in-out;
+	width: 100%;
+	max-width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+.navbar:hover{
+	opacity: 1;
+	margin-top: 28px;
+}
+
+#navbtn li a:hover{
+
+color: #000;
+
+
+}
+#navbtn a{
+	color: #fff;
+	font-family: 'fontreg';
+	font-size: 1.5em;
+}
+
+#navbtn li:hover{
+background-color: #2bff4e;
+
+
+}
+
+#navbtn li{
+	transition: .5s ease-in-out;
+	border-radius: 10px;
+
+}
+.nav{
+	margin-right: 0px;
+}
+                                          /*NAVBAR*/
+                                          /*Interest*/
+
+.drawings{
+
+	
+	margin-top: 200px;
+}
+ .drawingspics{
+ 	height: 100%;
+ 	width: 100%;
+	max-width: 1140px; 
+	max-height: 400px;
+	background-color: #000;
+	border-radius: 10px;
+
+}
+.drawings ul{
+	
+	padding: 35px 35px;
+}
+.drawings ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.drawingspics a img{
+
+	border: 2px solid #fff;
+	transition: .2s ease-in-out;
+}
+
+.drawingspics a img:hover{
+
+transform: scale(1.1);
+}
+
+
+
+                                       /*digi*/
+
+ .digital{
+
+	
+	margin-top: 30px;
+}
+ .digitalpics{
+ 	height: 100%;
+ 	width: 100%;
+	max-width: 1140px; 
+	max-height: 400px;
+	background-color: #000;
+	border-radius: 10px;
+
+}                                      
+.digital ul{
+	
+	padding: 35px 35px;
+}
+.digital ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.digitalpics a img{
+
+	border: 2px solid #fff;
+	transition: .2s ease-in-out;
+}
+
+.digitalpics a img:hover{
+
+transform: scale(1.1);
+}
+                                           /*manip*/
+
+.manip{
+
+	
+	margin-top: 30px;
+}
+ .manippics{
+ 	height: 100%;
+ 	width: 100%;
+	max-width: 1140px; 
+	max-height: 400px;
+	background-color: #000;
+	border-radius: 10px;
+
+}                                      
+.manip ul{
+	
+	padding: 35px 35px;
+}
+.manip ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.manippics a img{
+
+	border: 2px solid #fff;
+	transition: .2s ease-in-out;
+}
+
+.manippics a img:hover{
+
+transform: scale(1.1);
+}                                            /*logo*/
+
+
+.logo{
+
+	
+	margin-top: 30px;
+}
+ .logopics{
+ 	height: 100%;
+ 	width: 100%;
+	max-width: 1140px; 
+	max-height: 400px;
+	background-color: #000;
+	border-radius: 10px;
+
+}                                      
+.logo ul{
+	
+	padding: 35px 35px;
+}
+.logo ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.logopics a img{
+
+	border: 2px solid #fff;
+	transition: .2s ease-in-out;
+}
+
+.logopics a img:hover{
+
+transform: scale(1.1);
+}                               
